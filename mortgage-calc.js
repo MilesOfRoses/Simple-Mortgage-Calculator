@@ -16,12 +16,10 @@ function calculateMortgage() {
 	if (price == 0) {
 		alert("Please enter the Selling Price")
 		return;
-	}
-	if (rate == 0) {
+	} else if (rate == 0) {
 		alert("Please enter the APR interest")
 		return;
-	}
-	if (numberOfYears == 0) {
+	} else if (numberOfYears == 0) {
 		alert("Period (Years)")
 		return;
 	}
