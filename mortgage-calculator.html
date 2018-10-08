@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mortgage Calculator</title>
+  <link rel="stylesheet" href="mortgage-calc-style.css?v=1.0">
+</head>
+	<div id="wrapper">
+		<h1>
+			<span id="gradient">
+				MORTGAGE <span class="calculator">CALCULATOR</span><!-- /calculator -->
+			</span>
+			MORTGAGE <span class="calculator">CALCULATOR</span><!-- /calculator -->
+		</h1> 
+
+		<p class="instruction">Selling Price (<b>$</b>)
+		<input type="number" id="inPrice" value="0"></p>
+
+		<p class="instruction">Down Payment (<b>%</b>)
+		<input type="number" id="inDownPayment" value="0"></p>
+
+		<p class="instruction">APR Interest (<b>%</b>)
+		<input type="number" id="inRate" value="0"></p>
+
+		<p class="instruction">Period (<b>Years</b>)
+		<input type="number" id="numberOfYears" value="0"></p>
+
+		<button onclick="calculateMortgage()"><b>CALCULATE</b></button>
+
+		<p id="monthlyPaymentOutut"></p>
+	</div> <!-- /wrapper -->
+<body>
+<script src="mortgage-calc.js"></script>
+</body>
+</html>

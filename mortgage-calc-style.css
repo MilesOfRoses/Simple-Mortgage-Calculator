@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1fa2ff+0,12d8fa+51,a6ffcb+100 */
+	background: #1fa2ff; /* Old browsers */
+	background: -webkit-radial-gradient(center, ellipse cover, #1fa2ff 0%,#12d8fa 51%,#a6ffcb 100%); 
+	background-attachment: fixed;
+}
+
+#wrapper {
+	margin-top: 15%;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 150%;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white ;
+	padding: 20px;
+	border-radius: 7px;
+	/* shadow */
+	-webkit-box-shadow: 2px 2px 1px -1px rgba(0,0,0,0.48);
+	-moz-box-shadow: 2px 2px 1px -1px rgba(0,0,0,0.48);
+	box-shadow: 2px 2px 1px -1px rgba(0,0,0,0.48);
+}
+
+
+h1{
+	
+	left:-2px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color:rgba(0,0,0,0.5); /* shadow */
+	font-size: 71px;
+	font-weight:bold;
+	position:relative;
+	line-height: 75%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#gradient{
+	line-height: 75%;	
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1fa2ff+0,12d8fa+51,a6ffcb+100 */
+	background: #1fa2ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #1fa2ff 0%, #12d8fa 51%, #a6ffcb 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1fa2ff 0%,#12d8fa 51%,#a6ffcb 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1fa2ff 0%,#12d8fa 51%,#a6ffcb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1fa2ff', endColorstr='#a6ffcb',GradientType=0 ); /* IE6-9 */
+
+
+
+	color:transparent;
+	position:absolute;
+	background-clip:text;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	left:-1px;
+	top:-1px;
+
+}
+
+.calculator{
+	font-weight: normal;
+	font-size: 84%;
+}
+
+
+.instruction{
+	margin-bottom: 3px;
+	margin-top: 10px;
+}
+
+input {
+	border: none;
+	height: 20px;
+	width: 80px;
+	border-radius: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background: #E3E4E5;
+	float: right;
+	height: 25px;
+}
+
+
+button {
+	font-family: 'Rajdhani', sans-serif;
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 7px;
+	border: none;
+	font-size: 32px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3e4e5+0,e5ebee+50,d7dee3+51,f5f7f9+100 */
+	background: #e3e4e5; /* Old browsers */
+	background: -moz-linear-gradient(top, #e3e4e5 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e3e4e5 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e3e4e5 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e4e5', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+	/* shadow */
+	-webkit-box-shadow: 2px 2px 1px -1px rgba(0,0,0,0.48);
+	-moz-box-shadow: 2px 2px 1px -1px rgba(0,0,0,0.48);
+	box-shadow: 2px 2px 1px -1px rgba(0,0,0,0.48);
+
+}
+
+button:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+1,d4d9db+50,cbd2d6+51,b5b5b5+100 */
+	background: #f6f8f9; /* Old browsers */
+	background: -moz-linear-gradient(top, #f6f8f9 1%, #d4d9db 50%, #cbd2d6 51%, #b5b5b5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f6f8f9 1%,#d4d9db 50%,#cbd2d6 51%,#b5b5b5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f6f8f9 1%,#d4d9db 50%,#cbd2d6 51%,#b5b5b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#b5b5b5',GradientType=0 ); /* IE6-9 */
+}
+
+button:active {
+	/* when the button is pressed, the button moves down slightly and the shadow disapears, so that it looks like it was pressed in */
+  	transform: translateY(4px);
+  	-webkit-box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.48);
+	-moz-box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.48);
+	box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.48);
+}
+
+#monthlyPaymentOutut{
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+@media (max-width: 350px) { 
+	h1 {
+		font-size: 60px;
+	}
+	p{
+		font-size: 70%;
+	}
+ }
