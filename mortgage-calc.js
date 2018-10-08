@@ -1,5 +1,3 @@
-
-//stopped video at https://www.youtube.com/watch?v=u3bTnGS7fVk&index=39&list=PLTfW8qI5SIht3VScVwscRj3XlEQkPQ_4o 18:36
 //the formula: MonthlyPayment = ((principal * rate) * Math.pow((1 + rate), numberOfYears)) / ( Math.pow((1 + rate), numberOfYears) - 1)
 
 function calculateMortgage() {
